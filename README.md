@@ -40,5 +40,5 @@ To run the Flask app, run app.py by running:
 python3 app.py
 ```
 
-The app will try to open on [loca](http://localhost:5000/). If port 5000 is taken, try incrementing the port until you find the one where it is running (or look at the terminal console to see what port it is running on)
+The app will try to open on [(http://localhost:5000/)](http://localhost:5000/). If port 5000 is taken, try incrementing the port until you find the one where it is running (or look at the terminal console to see what port it is running on)
 
