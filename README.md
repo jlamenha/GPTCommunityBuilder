@@ -28,7 +28,7 @@ Please install the necessary packages by running the following command
 pip install -r requirements.txt
 ```
 
-Make sure create a file called .env in the posts/ folder with the following API keys (you can see the necessary APIs in the .env.example file in the posts/ folder)
+Make sure create a file called .env in the posts/ folder with the following API keys 
 
 ```.env
 OPENAI_API_KEY
@@ -39,3 +39,6 @@ To run the Flask app, run app.py by running:
 ```bash
 python3 app.py
 ```
+
+The app will try to open on [loca](http://localhost:5000/). If port 5000 is taken, try incrementing the port until you find the one where it is running (or look at the terminal console to see what port it is running on)
+
